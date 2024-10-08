@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Hurricane:regular&display=swap");
+
+@import "defaultnullstyle";
+@import "boxShadowGenerator";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: $backgroundColorPrimary;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+h2 {
+  font-family: "Hurricane";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 10px;
+  color: $tittleColor;
+  text-align: center;
+  margin: 20px auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Box Shadow Generator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="container">
+          <div class="controls">
+            <label for="hOffset">Horizontal Offset:</label>
+            <input type="range" id="hOffset" min="-50" max="50" value="10" />
+            <span id="hOffsetValue">10px</span>
+
+            <label for="vOffset">Vertical Offset:</label>
+            <input type="range" id="vOffset" min="-50" max="50" value="10" />
+            <span id="vOffsetValue">10px</span>
+
+            <label for="blurRadius">Blur Radius:</label>
+            <input type="range" id="blurRadius" min="0" max="100" value="20" />
+            <span id="blurRadiusValue">20px</span>
+
+            <label for="spreadRadius">Spread Radius:</label>
+            <input
+              type="range"
+              id="spreadRadius"
+              min="-50"
+              max="50"
+              value="0"
+            />
+            <span id="spreadRadiusValue">0px</span>
+
+            <label for="shadowColor">Shadow Color:</label>
+            <input type="color" id="shadowColor" value="#000000" />
+          </div>
+
+          <div class="box" id="box">Box</div>
+
+          <h2>Generated CSS:</h2>
+          <textarea id="cssOutput" readonly></textarea>
+        </div>
+      </div>
+    </div>
+    <script src="js/scriptgenerator.js"></script>
+  </body>
+</html>
