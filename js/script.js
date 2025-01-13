@@ -32,8 +32,7 @@ window.addEventListener("DOMContentLoaded", () => {
     "rgba(17, 12, 46, 0.15) 0 48px 100px 0",
 
     // Stripe
-    
-    
+
     {
       boxShadow:
         "rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px",
@@ -58,11 +57,11 @@ window.addEventListener("DOMContentLoaded", () => {
       boxShadow: "0 20px 30px -10px #26394d",
       credits: "Stripe",
     },
-    
+
     "0 6px 12px -2px rgba(50,50,93,0.25),0 3px 7px -3px rgba(0,0,0,0.3)",
     "0 13px 27px -5px rgba(50,50,93,0.25),0 8px 16px -8px rgba(0,0,0,0.3)", // dup
     "0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)",
-    
+
     "0 50px 100px -20px rgba(50,50,93,0.25),0 30px 60px -30px rgba(0,0,0,0.3)", // dup
 
     {
@@ -129,7 +128,6 @@ window.addEventListener("DOMContentLoaded", () => {
       boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       credits: "Tailwind CSS",
     },
-    
 
     "0 0 5px 0 rgba(0, 0, 0, 0.1),0 0 1px 0 rgba(0, 0, 0, 0.1)",
 
@@ -175,13 +173,12 @@ window.addEventListener("DOMContentLoaded", () => {
       credits: "pqina.nl/doka",
     },
     "rgba(0,0,0,.1) 0 1px 2px 0",
-    
+
     {
       boxShadow: "rgba(3, 102, 214, 0.3) 0 0 0 3px",
       credits: "Github",
     },
     "rgba(14, 30, 37, 0.12) 0 2px 4px 0, rgba(14, 30, 37, 0.32) 0 2px 16px 0",
-    
 
     //shopify
     {
@@ -194,7 +191,6 @@ window.addEventListener("DOMContentLoaded", () => {
     },
 
     //fossheim
-    
 
     {
       boxShadow:
@@ -206,7 +202,7 @@ window.addEventListener("DOMContentLoaded", () => {
     },
 
     //boxshadows.com
-    
+
     {
       boxShadow:
         "6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8)",
@@ -312,25 +308,13 @@ window.addEventListener("DOMContentLoaded", () => {
       boxShadow: "0px 20px 30px rgba(0, 0, 0, 0.2)",
       credits: "Mac",
     },
-    
-    {
-      boxShadow:
-        "0 .0625em .0625em rgba(0, 0, 0, 0.25), 0 .125em .5em rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.1)",
-      credits: "pqina.nl/doka",
-    },
 
     {
       boxShadow: "rgba(0,0,0,0.09) 0px 3px 12px",
       credits: "Typedream",
     },
 
-   
-
     "rgba(0, 0, 0, 0.45) 0 25px 20px -20px",
-
-    
-
-    
 
     {
       boxShadow:
@@ -357,105 +341,111 @@ window.addEventListener("DOMContentLoaded", () => {
     },
   ];
 
-  // const shadowsInset = [
-  //   {
-  //     boxShadow: "0 20px 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top",
-  //     extra: {
-  //       borderRadius: "10px",
-  //     },
-  //   },
+  const shadowsInset = [
+    {
+      boxShadow: "0 20px 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top",
+      extra: {
+        borderRadius: "10px",
+      },
+    },
 
-  //   "rgba(149, 157, 165, 0.2) 0 8px 24px",
+  {
+    boxShadow:
+      "0 .0625em .0625em rgba(0, 0, 0, 0.25), 0 .125em .5em rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.1)",
+    credits: "pqina.nl/doka",
+  },
 
-  //   {
-  //     boxShadow: "20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Right",
-  //   },
-  //   {
-  //     boxShadow: "0 -20px 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Bottom",
-  //   },
-  //   {
-  //     boxShadow: "20px 0 10px -20px rgba(0,0,0,0.45) inset;",
-  //     name: "Inset Left",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top Right",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top Bottom",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top Left",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 -20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Bottom Right",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 -20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Bottom Left",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "-20px 0 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Right Left",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top Bottom Right",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
-  //     name: "Inset Top Bottom Left",
-  //   },
-  //   {
-  //     boxShadow: "0 0 10px 0 rgba(0,0,0,0.45) inset",
-  //     name: "Inset All Sides",
-  //   },
-  //   {
-  //     boxShadow: "-12px -8px 40px rgba(70,70,70,0.12) inset",
-  //     name: "Inset Soft",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09)",
-  //     name: "Inset Smooth",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25)",
-  //     name: "Inset Modern",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "-15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1)",
-  //     name: "Inset Raised",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)",
-  //     name: "Inset Elevated",
-  //   },
-  //   {
-  //     boxShadow:
-  //       "inset 2px 2px 10px rgba(255,255,255,.1), inset -5px -8px 8px rgba(0,0,0,.2)",
-  //     name: "Inset 3D",
-  //   },
-  //   // { boxShadow: "", name: "Inset" },
-  //   // { boxShadow: "", name: "Inset" },
-  // ];
+    "rgba(149, 157, 165, 0.2) 0 8px 24px",
+
+    {
+      boxShadow: "20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Right",
+    },
+    {
+      boxShadow: "0 -20px 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Bottom",
+    },
+    {
+      boxShadow: "20px 0 10px -20px rgba(0,0,0,0.45) inset;",
+      name: "Inset Left",
+    },
+    {
+      boxShadow:
+        "0 20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top Right",
+    },
+    {
+      boxShadow:
+        "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top Bottom",
+    },
+    {
+      boxShadow:
+        "0 20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top Left",
+    },
+    {
+      boxShadow:
+        "0 -20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Bottom Right",
+    },
+    {
+      boxShadow:
+        "0 -20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Bottom Left",
+    },
+    {
+      boxShadow:
+        "-20px 0 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Right Left",
+    },
+    {
+      boxShadow:
+        "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top Bottom Right",
+    },
+    {
+      boxShadow:
+        "0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset",
+      name: "Inset Top Bottom Left",
+    },
+    {
+      boxShadow: "0 0 10px 0 rgba(0,0,0,0.45) inset",
+      name: "Inset All Sides",
+    },
+    {
+      boxShadow: "-12px -8px 40px rgba(70,70,70,0.12) inset",
+      name: "Inset Soft",
+    },
+    {
+      boxShadow:
+        "0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09)",
+      name: "Inset Smooth",
+    },
+    {
+      boxShadow:
+        "inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25)",
+      name: "Inset Modern",
+    },
+    {
+      boxShadow:
+        "-15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1)",
+      name: "Inset Raised",
+    },
+    {
+      boxShadow:
+        "0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)",
+      name: "Inset Elevated",
+    },
+    {
+      boxShadow:
+        "inset 2px 2px 10px rgba(255,255,255,.1), inset -5px -8px 8px rgba(0,0,0,.2)",
+      name: "Inset 3D",
+    },
+    // { boxShadow: "", name: "Inset" },
+    // { boxShadow: "", name: "Inset" },
+  ];
 
   const ul = document.querySelectorAll("ul");
   const ulID = document.getElementById("main-ul");
@@ -547,7 +537,8 @@ window.addEventListener("DOMContentLoaded", () => {
     tempInput.setAttribute("value", text);
     document.body.appendChild(tempInput);
     tempInput.select();
-    document.execCommand("copy");
+    // navigator.clipboard.writeText(text);
+    // document.execCommand("copy");
     document.body.removeChild(tempInput);
   }
 
